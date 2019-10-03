@@ -1,0 +1,253 @@
+
+@font-face{
+    font-family: myFont;
+    src: url(./font/TheSansPlain.ttf);
+}
+@font-face{
+    font-family: myArabicFont;
+    src: url(./font/NotoNaskhArabic-Regular.ttf)
+}
+
+*{
+    font-family: myFont, myArabicFont;
+}
+
+.btn-md {
+    font-size: 14px;
+    width: 140px;
+}
+.btn-xlg{
+    width: 240px;
+    font-size: 16px;
+}
+.rounded-corners{
+    border-radius: 50px;
+    
+}
+
+.dark-blue{
+    background-color:  #2d0b39;
+    border: #2d0b39;
+}
+
+.green{
+    background-color:  #26634B;
+    border: #26634B;
+}
+.dark-blue-font-color{
+    color:#160F3E;
+}
+.dark-blue:hover{
+    background-color: #583958;
+}
+.dark-blue:focus{
+    box-shadow: 1px solid 	#FFAC0C;
+    outline: 2px solid 	#FFAC0C;
+    -moz-outline-radius: 12% 1em 25px;
+    outline-offset: 3px;
+}
+
+.green:hover{
+    background-color: #ACDDC7;
+    color: #26634B;
+}
+
+.disabled{
+    background-color: grey;
+    border:  grey;
+    color: white;
+}
+
+.disabled-green{
+    background-color: #ACDDC7;
+    border: #ACDDC7;
+    color:#26634C;
+}
+
+.disabled-green:hover{
+    background-color: #ACDDC7;
+    border: #ACDDC7;
+    color:#26634C;
+}
+
+.blue-outline{
+    border: 1px solid #005A96;
+    color: #005A96;
+}
+
+.blue-outline:hover{
+    color: white;
+    background-color: #005A96;
+    border: 1px solid #005A96;
+}
+
+
+.text-input-ar{
+    width: 300px;
+    direction: rtl;
+    border-color: #160F3E;
+    color: #160F3E;
+    
+}
+
+.green-color{
+    color: #26634B;
+}
+.red-color{
+    color: #AF0818;
+}
+.blue-color{
+    color: #005A96;
+}
+.h1-heading{
+    font-size: 60px;
+}
+.h1-heading-m{ 
+    font-size: 48px;
+}
+.h1-heading-ar{
+    font-size: 64px;
+}
+.h2-heading{
+    font-size: 48px;
+}
+.h2-heading-m{
+    font-size: 34px;
+}
+.h2-heading-ar{
+    font-size: 52px;
+}
+.h3-heading{
+    font-size: 34px;
+}
+.h3-heading-m{
+    font-size: 24px;
+}
+.h3-heading-ar{
+    font-size: 38px;
+}
+.h4-heading{
+    font-size: 24px;
+}
+.h4-heading-ar{
+    font-size: 28px;
+}
+.h4-heading-m{
+    font-size: 20px;
+}
+.h5-heading{
+    font-size: 20px;
+}
+.h5-heading-ar{
+    font-size: 24px;
+}
+.h6-heading-ar{
+    font-size: 22px;
+}
+.h5-heading-m{
+    font-size: 18px;
+}
+.h6-heading{
+    font-size: 18px;
+}
+.s1{
+    font-size: 16px
+}
+.s1-ar{
+    font-size: 20px
+}
+.s2{
+    font-size: 14px
+}
+.s2-ar{
+    font-size: 16px
+}
+
+
+.b1{
+    font-size: 16px;
+}
+
+.b1-ar{
+    font-size: 20px;
+}
+.b2{
+    font-size: 20px;
+}
+.b2-ar{
+    font-size: 16px;
+}
+
+
+.cta-1{
+    font-size: 18px;
+}
+.cta-1-ar{
+    font-size: 28px;
+}
+
+.cta-2-ar{
+    font-size: 22px;
+}
+
+.cta-3-ar{
+    font-size: 16px;
+}
+
+.cta-2{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.cta-2-m{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.cta-3{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.cta-3-m{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.f1{
+    font-size: 14px;
+}
+
+.f1-ar{
+    font-size: 16px;
+}
+.f2-ar{
+    font-size: 14px;
+}
+.f1-m{
+    font-size: 12px;
+}
+.f2{
+    font-size: 12px;
+}
+
+.b-small{
+    font-size: 12px;
+}
+.b-small-ar-1{
+    font-size: 20px;
+}
+.b-small-ar-2{
+    font-size: 16px;
+}
+
+.bold-font{
+    font-weight: bold;
+}
+
+.disabled-input{
+    background-color: white!important;
+    color:#160F3E!important;
+}
+
+
